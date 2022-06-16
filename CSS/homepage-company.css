@@ -91,12 +91,12 @@ nav .page-title a {
     font-weight: bold;
 }
 
-.search-container form button a img {
+.search-container form button img {
     max-width: 16px;
     transition: opacity 0.15s;
 }
 
-.search-container form button a img:hover {
+.search-container form button img:hover {
     opacity: 0.5;
 }
 
@@ -149,7 +149,7 @@ nav .page-title a {
 /*AKHIR NAVBAR*/
 
 .header {
-    height: 482px;
+    height: 430px;
     width: 100%;
     background:  linear-gradient(140.76deg, #39A2DB 69.83%, #073944 114.4%);
     border-radius: 0px 0px 35px 35px;
@@ -170,17 +170,24 @@ nav .page-title a {
 }
 
 .text-header {
-    width: 550px;
+    width: 580px;
     /* outline: 2px solid black; */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 30px;
-    line-height: 50px;
     color: #FAFAFA;
     letter-spacing: 2px;
 }
 
 .text-header h2 {
     font-weight: 800;
+    line-height: 50px;
+}
+
+.text-header h4 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
 }
 
 .button-header button {
@@ -190,11 +197,16 @@ nav .page-title a {
     font-weight: bold;
     font-size: 15px;
     letter-spacing: 2px;
-    margin-top: 60px;
+    margin-top: 30px;
     height: 50px;
     width: 210px;
     cursor: pointer;
     border-radius: 30px;
+    transition: opacity .15s;
+}
+
+.button-header button:hover {
+    opacity: .8;
 }
 
 
@@ -203,150 +215,85 @@ nav .page-title a {
     margin-top: -30px;
 }
 
-.about {
-    align-items: center;
-    margin-top: 80px;
-}
-
-.about h3 {
-    text-align: center;
+.main-content {
+    width: 80%;
     margin: 0 auto;
-    width: 500px;
-    font-size: 20px;
-    font-weight: 800;
-    color: rgba(7, 57, 68, 1);
-    margin-bottom: 30px;
-}
-
-.about h4 {
-    text-align: center;
-    margin: 0 auto;
-    width: 600px;
-    color: rgba(7, 57, 68, 1);
-    letter-spacing: 1px;
-    line-height: 25px;
-}
-
-.recommendation-container {
-    width: 100%;
     height: 500px;
-    /* outline: 1px solid black; */
-    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
 }
 
-.job-container {
+.subtext {
     width: 100%;
-    height: 250px;
-    background: rgba(57, 162, 219, 1);;
+    height: 50px;
+    /* border: 1px solid black; */
+    text-align: center;
 }
 
-.jobs h2 {
+.subtext h3 {
+    font-size: 30px;
+    color: rgba(7, 57, 68, 1);
+}
+
+.subtext hr {
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 340px;
+    height: 3px;
+    background-color: #073944;
+    outline: none;
+    border: none;
+    /* border: 1px solid rgba(7, 57, 68, 1); */
+    box-shadow: 4px 4px 4px rgba(7, 57, 68, 1);
+}
+
+.features {
     width: 100%;
-    padding-top: 20px;
-    padding-left: 110px;
-    font-size: 25px;text-transform: uppercase;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-weight: 800;
-    color: #073944;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.j1 {
-    color: #073944;
-    padding-left: 110px;
-    padding-top: 20px;
-    font-size: 17px;
-}
-
-.cards {
-    flex: 1;
-    /* text-align: center; */
-    margin: 0 100px;
-}
-
-.cards ul {
+.features ul {
+    list-style: none;
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
 }
 
-.cards ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 38px 15px;
-    position: relative;
+.features ul li {
+    text-align: center;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 250px;
-    margin: auto;
-    background: #FAFAFA;
-    /* text-align: center; */
-    font-family: arial;
+.features ul li img {
+    max-width: 230px;
 }
 
-.card img {
-    max-width: 220px;
-    padding: 15px;
-}
-
-.card h3 {
-    padding: 0 0px 10px 20px;
-}
-
-.price {
-    color: grey;
-    padding: 4px 20px;
-    font-size: 15px;
-}
-
-.card button {
+.features ul li button {
     border: none;
-    outline: 0;
-    padding: 18px;
-    margin-top: 10%;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    color: #FAFAFA;
-    background-color: rgba(57, 162, 219, 1);
-    text-align: center;
-    cursor: pointer;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
-    font-size: 15px;
-    transition: opacity 0.15s;
-}
-
-.card button:hover {
-    opacity: 0.7;
-}
-
-.showmore {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.showmore button {
-    border-style: none;
-    margin-top: 10px;
     height: 50px;
     width: 180px;
-    font-size: 15px;
     background: rgba(57, 162, 219, 1);
+    border-radius: 60px;
     color: #FAFAFA;
+    font-size: 15px;
     font-weight: bold;
-    letter-spacing: 1.5px;
-    transition: opacity 0.15s;
+    letter-spacing: .7px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: box-shadow .15s;
 }
 
-.showmore button:hover {
-    opacity: 0.7;
+.features ul li button:hover {
+    /* opacity: .8; */
+    box-shadow: 0px 4px 4px rgba(7, 57, 68, 1);
 }
 
-.card p img {
-    margin: -15px 0 -15px -15px;
-}
+
+
+
+
+
+
 
 
 
@@ -357,7 +304,7 @@ nav .page-title a {
 .footer-container {
     background: rgba(57, 162, 219, 1);
     padding: 4rem 0 2rem 0;
-    top: 850px;
+    top: 50px;
     bottom: 0px;
     width: 100%;
     position: relative;
@@ -400,4 +347,34 @@ nav .page-title a {
 .footer-heading a:hover {
     color: rgb(111, 109, 109);
     transition: 0.3s ease-out;
+}
+
+
+/* SKELETON LOADING */
+
+.placeholder {
+    position: relative;
+}
+
+.placeholder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: linear-gradient(to right, #999, #ccc);
+    background-size: 200%;
+    animation: skeleton 1s infinite;
+}
+
+@keyframes skeleton {
+    0% {
+        background-position: -100% 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
 }

@@ -15,11 +15,11 @@ function getInfo() {
 
     
         if(email == "user@gmail.com" && pass == "user123") {
-            window.location.href="home.html"
+            window.location.href="../HTML/home.html"
             return
         }
         else if(email == "company@gmail.com" && pass == "company123") {
-            window.location.href="homepage-company.html"
+            window.location.href="../HTML/homepage-company.html"
             return
         }
     
