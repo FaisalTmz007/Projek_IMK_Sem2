@@ -128,6 +128,7 @@ nav .page-title a {
     background: rgba(7, 57, 68, 1);
     margin-top: 0px;
     margin-left: -60px;
+    z-index: 1;
 }
 
 .profil-bar ul li:hover .sub-menu-1 ul {
@@ -280,7 +281,7 @@ p {
     top: 0;
     width: 18px;
     height: 18px;
-    background-image: url(icon/checklist.png);
+    background-image: url(../Icon/checklist.png);
     background-size: contain;
     transform: scale(1);
     opacity: 1;
@@ -294,7 +295,7 @@ p {
     top: 0;
     width: 18px;
     height: 18px;
-    background-image: url(icon/checklist.png);
+    background-image: url(../Icon/checklist.png);
     background-size: contain;
     transform: scale(0);
     opacity: 0;

@@ -128,6 +128,7 @@ nav .page-title a {
     background: rgba(7, 57, 68, 1);
     margin-top: 0px;
     margin-left: -60px;
+    z-index: 1;
 }
 
 .profil-bar ul li:hover .sub-menu-1 ul {
